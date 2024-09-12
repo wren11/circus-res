@@ -1,0 +1,207 @@
+﻿Please review the following JSON structure for any inconsistencies, errors, or areas for improvement. Ensure that:
+
+1. All fields are consistently formatted (e.g., dates, email addresses, phone numbers).
+2. Categories are logically organized and appropriately named.
+3. Job titles, company names, and other entities are consistent throughout.
+4. Dates are in a consistent format.
+5. Skills are correctly categorized and relevant items are grouped together.
+6. Descriptions are clear and free of grammatical errors.
+7. Provide resume suggestions for improvement.
+8. Generate better data where necessary for clarity and completeness.
+
+Here is the JSON structure:
+
+{
+  candidate_id: guid,
+  fileId: "",
+  candidate_info: {
+    name: "",
+    location: "",
+    email: "",
+    phone: "",
+    summary: "",
+    education: {
+      degree: "",
+      institution: "",
+      year: ""
+    },
+    skills: {
+      Systems: [],
+      Programming Languages: [],
+      Technologies: [],
+      Database: [],
+      Server: [],
+      Software: []
+    },
+    experience: [
+      {
+        title: "",
+        company: "",
+        start_date: "",
+        end_date: "",
+        responsibilities: "",
+        achievements: []
+      }
+    ],
+    volunteer_experience: [
+      {
+        role: "",
+        organization: "",
+        start_date: "",
+        end_date: "",
+        responsibilities: ""
+      }
+    ],
+    interests: [],
+    references: [
+      {
+        name: "",
+        title: "",
+        company: "",
+        phone: "",
+        email: ""
+      }
+    ]
+  },
+  candidate_score: 0,
+  threshold: 0,
+  questions: [
+    {
+      question_id: "",
+      question_text: "",
+      question_type: "",
+      difficulty: "",
+      time-limit: 0,
+      options: []
+    }
+  ]
+}
+
+Here is an example input:
+
+{
+  candidate_id: "1e5a38b4-7894-4f84-bc71-9e02896f683f",
+  fileId: "file-nWrmQC7SHk50VNfRS83u9Lzn",
+  candidate_info: {
+    name: "Jianning Pan",
+    location: "65B Surrey Rd, Blackburn North VIC 3130",
+    email: "johnpan27@gmail.com",
+    phone: "0405363672",
+    summary: "I am currently in Australia and have valid visa status. I am an Information technology graduate, willing to learn and improve my skills. Experienced in Python, React JS, and React Native, and looking to develop a software engineering career.",
+    education: {
+      degree: "Master of Computer Science",
+      institution: "RMIT",
+      year: "2018 - 2019"
+    },
+    skills: {
+      Systems: ["Windows", "Mac", "Linux", "Unix"],
+      Programming Languages: ["Python", "React Native", "React JS", "Git", "IOS", "Android", "JAVA", "HTML", "CSS", "C#", ".Net", "PHP", "Big Data"],
+      Database: ["MongoDB", "MySQL"],
+      Server: ["Heroku", "AWS"],
+      Software: ["MS Office", "Adobe Photoshop"]
+    },
+    experience: [
+      {
+        title: "Front-end Developer, Back-end Developer",
+        company: "Requin Tech (RMIT)",
+        start_date: "July 2019",
+        end_date: "November 2019",
+        responsibilities: "HTTPS encryption using AWS EC2, Route 53, ACM, S3, CloudFront for website. Dockerize web server and database with Flask on Ubuntu. Encrypt API with letsencrypt. Create API endpoints in Python. BI dashboard creation using React.js. App development using React Native. Write documentation. Update functionality based on client feedback."
+      }
+    ],
+    volunteer_experience: [
+      {
+        role: "Front End Developer",
+        organization: "Vonex Hackathon",
+        start_date: "28/09/2019",
+        end_date: "29/09/2019",
+        responsibilities: "Develop UI using React Native. Collaborate with team members. Connect app to the endpoint programmed by GOLANG."
+      }
+    ],
+    interests: ["Piano", "Guitar", "Basketball", "Modelling"],
+    references: [
+      {
+        name: "Julian Wise",
+        title: "Director",
+        company: "Requin Tech",
+        phone: "0425695859",
+        email: "julianadamwise@gmail.com"
+      }
+    ]
+  },
+  candidate_score: 78,
+  threshold: 70,
+  questions: [
+    {
+      question_id: "q1",
+      question_text: "Describe a complex technical challenge you faced in your previous role at Requin Tech (RMIT) and explain your approach to solving it.",
+      question_type: "technical",
+      difficulty: "hard",
+      time-limit: 900
+    }
+  ]
+}
+
+Here is the JSON structure for the output:
+
+{
+  candidate_id: "1e5a38b4-7894-4f84-bc71-9e02896f683f", (should be the same as the guid in the first json)
+  fileId: file id we first processed goes here,
+  assistantId: assistant id goes here,
+  threadId: threadId goes here,
+  messageId: messageid goes here,
+  runId: runId goes here,
+  changes: [
+    {
+      section: "",
+      field: "",
+      original_value: "",
+      corrected_value: "",
+      remarks: ""
+    }
+  ],
+  suggestions: [
+    {
+      section: "",
+      field: "",
+      suggestion: ""
+    }
+  ],
+  summary: {
+    candidate_score: 0,
+    threshold: 0,
+    overall_remarks: ""
+  }
+}
+
+Here is an example output:
+
+{
+  candidate_id: "1e5a38b4-7894-4f84-bc71-9e02896f683f", (should be the same as the guid in the first json)
+  fileId: file id we first processed goes here,
+  assistantId: assistant id goes here,
+  threadId: threadId goes here,
+  messageId: messageid goes here,
+  runId: runId goes here
+  changes: [
+    {
+      section: "skills",
+      field: "Programming Languages",
+      original_value: ["Python", "React Native", "React JS", "Git", "IOS", "Android", "JAVA", "HTML", "CSS", "C#", ".Net", "PHP", "Big Data"],
+      corrected_value: ["Python", "Java", "HTML", "CSS", "C#", ".Net", "PHP"],
+      remarks: "Separated technologies and tools from programming languages for better clarity."
+    }
+  ],
+  suggestions: [
+    {
+      section: "skills",
+      field: "Technologies",
+      suggestion: "Add technologies and tools used such as 'React Native', 'React JS', 'IOS', 'Android', 'Git'."
+    }
+  ],
+  summary: {
+    candidate_score: 78,
+    threshold: 70,
+    overall_remarks: "The candidate's data has been reviewed and corrected for clarity and consistency. The skills section was reorganized for better clarity."
+  }
+}

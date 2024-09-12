@@ -1,0 +1,210 @@
+﻿{
+  "candidate_id": "c4ab9460-8f9d-4db1-87a7-4a0844f6b8fc",
+  "fileId": "file-AOzV5yrhsZdBmh4wBkiVK2qh",
+  "candidate_info": {
+    "name": "Dean McPherson",
+    "location": "Coomera, QLD, AU",
+    "email": "deanmcpw@gmail.com",
+    "phone": "+61 423 445 059",
+    "summary": "Business-oriented developer with 18 years’ experience. Strong focus on code quality and test-driven development. In-depth knowledge of software design patterns and principles. Proven expertise in domain-driven design and distributed systems. Proven expertise working agile.",
+    "skills": {
+      "Programming Languages": ["C", "C++", "C#", "JavaScript", "TypeScript", "PHP", "Python"],
+      "Frameworks/Platforms": [".NET 8", "Entity Framework 8", "React JS", "OpenGL", "QGIS"],
+      "Technologies/Concepts": ["Meta Programming", "RESTful APIs", "Driver Development", "Microservices", "Event-Driven Architecture", "Geographic Information Systems (GIS)", "LIDAR Technologies"],
+      "Database": ["Relational Database Management Systems"],
+      "Cloud Platforms": ["Azure", "AWS"],
+      "IoT/Connectivity": ["LoRa", "Sockets", "Stripe APIs", "PRODA APIs"],
+      "AI/ML Fundamentals": ["Copilot++", "GPT", "TensorFlow", "Q-Models", "Reinforcement Modelling"],
+      "Security": ["Azure IAM", "JWT", "RBAC", "Identity Management", "OIDC Providers", "Zero Trust Concepts"],
+      "Computer Science": ["Reverse Engineering & Disassembly", "MS Detours", "Function Hooking", "Aspect Programming", "Ethical Hacking"]
+    },
+    "education": {
+      "degree": "BsC of Computer Science",
+      "institution": "CQU",
+      "location": "Rockhampton, QLD",
+      "year": 2008,
+      "honors": "With Distinction"
+    },
+    "certifications": ["Microsoft Certified Azure Engineer (2018)"],
+    "experience": [
+      { 
+        "title": "Lead Developer", 
+        "company": "Skymo Pty Ltd", 
+        "start_date": "January 2024", 
+        "end_date": "Current",
+        "responsibilities": "Developed a SaaS platform for connecting NDIS Participants with support providers." 
+      },
+      { 
+        "title": "Technical Director & Co-Founder", 
+        "company": "ReleaseForge.com", 
+        "start_date": "February 2021", 
+        "end_date": "Current", 
+        "responsibilities": "Co-founded and managed a technical consulting business, served a wide range of clients, successfully delivered over 60 contracts." 
+      },
+      { 
+        "title": "Lead Developer", 
+        "company": "Ignite Travel (Flight Centre)", 
+        "start_date": "August 2023", 
+        "end_date": "December 2023", 
+        "responsibilities": "Led software development for industrial batching operations and machinery software." 
+      },
+      { 
+        "title": "Lead Developer", 
+        "company": "MultiNail Pty Ltd", 
+        "start_date": "June 2022", 
+        "end_date": "August 2023", 
+        "responsibilities": "Led software development for industrial batching operations and machinery software, designed and implemented RESTful services and plugins for microcontrollers and Omron/PLC machines." 
+      },
+      { 
+        "title": "Director of Engineering", 
+        "company": "Careview Pty Ltd", 
+        "start_date": "March 2022", 
+        "end_date": "June 2022", 
+        "responsibilities": "Drove engineering best practices, oversaw hiring and professional development." 
+      },
+      { 
+        "title": "Engineering Manager", 
+        "company": "Careview Pty Ltd", 
+        "start_date": "March 2021", 
+        "end_date": "March 2022", 
+        "responsibilities": "Redesigned a monolithic .NET project into microservices, setup DevOps and backend infrastructure." 
+      },
+      { 
+        "title": "Senior Software Engineer", 
+        "company": "Ninox Robotics Pty Ltd", 
+        "start_date": "January 2021", 
+        "end_date": "November 2021", 
+        "responsibilities": "Developed drone processing capabilities and streamlined data processing pipelines using Azure." 
+      },
+      { 
+        "title": "Senior Software Engineer", 
+        "company": "Aerometrex Limited", 
+        "start_date": "March 2016", 
+        "end_date": "March 2021", 
+        "responsibilities": "Led development of Aero Cloud, a LiDAR and image data processing platform." 
+      },
+      { 
+        "title": ".NET Developer", 
+        "company": "Atlass Aust Pty Ltd", 
+        "start_date": "January 2011", 
+        "end_date": "January 2016", 
+        "responsibilities": "Worked on various .NET projects." 
+      }
+    ],
+    "involvement": [
+      { 
+        "role": "Code Mentor", 
+        "organization": "codementor.io", 
+        "start_date": "May 2022", 
+        "end_date": "March 2024", 
+        "details": "Mentored over 30 junior developers in advanced programming techniques, code review practices, and software lifecycle processes." 
+      }
+    ],
+    "projects": [
+      { 
+        "name": "PRODA APIs", 
+        "description": "Developed and designed backend architecture for NDIS claims portal, supported over 300,000 daily claims.", 
+        "technologies": [".NET", "REST APIs", "GraphQL", "OpenAPI", "Azure APIM", "Azure API Gateway", "Ocelot", "Kafka", "RabbitMQ"]
+      },
+      {
+        "name": "Metromap",
+        "description": "Client portal for geospatial products using WebGL and WebSocket to stream point clouds.",
+        "technologies": ["WebGL", "WebSocket", "ThreeJS", "React", "Azure Blob Storage", "JavaScript", "PoTree", "MapBox"]
+      },
+      {
+        "name": "StripAlign",
+        "description": "Onboard processing application for in-flight corrections using Bayesian inference.",
+        "technologies": ["C++", "QT", "BoostLib"]
+      },
+      {
+        "name": "Aero-Cloud",
+        "description": "Cloud-based SaaS platform for large-scale geospatial data processing.",
+        "technologies": ["Azure Batch", "Blog Storage", "DevOps Pipelines", "Azure Functions", ".NET 5", "React JS", "TypeScript", "TAILWIND CSS"]
+      },
+      {
+        "name": "In-Flight Uploader",
+        "description": "Multi-threaded uploading to Azure Blob Storage for rapid field data transfer.",
+        "technologies": ["Azure Batch", "Azure Functions", "JWT AUTH", "Rest APIs", ".NET", "WinForms", "WPF", "C++", "Python"]
+      }
+    ]
+  },
+  "candidate_score": 92,
+  "threshold": 70,
+  "questions": [
+    {
+      "question_id": "q1",
+      "question_text": "Describe a complex technical challenge you faced in your previous role at Skymo Pty Ltd and explain your approach to solving it.",
+      "question_type": "technical",
+      "difficulty": "hard",
+      "time-limit": 900
+    },
+    {
+      "question_id": "q2",
+      "question_text": "How would you handle a situation where a project deadline is approaching, but unforeseen technical difficulties arise?",
+      "question_type": "problem-solving",
+      "difficulty": "medium",
+      "time-limit": 600
+    },
+    {
+      "question_id": "q3",
+      "question_text": "Using C++, give me a common use for a managed pointer. Write me an example snippet and provide code comments to explain what's going on.",
+      "question_type": "code-test",
+      "difficulty": "complex",
+      "code-scope": "<code>",
+      "language": "C++",
+      "time-limit": 1800
+    },
+    {
+      "question_id": "q4",
+      "question_text": "What is the primary function of the OSI model's Network Layer?",
+      "question_type": "multi-choice",
+      "difficulty": "medium",
+      "time-limit": 300,
+      "options": ["Routing", "Data encryption", "Session management", "Physical addressing"]
+    },
+    {
+      "question_id": "q5",
+      "question_text": "Explain the benefits and limitations of using microservices architecture in software development.",
+      "question_type": "technical",
+      "difficulty": "medium",
+      "time-limit": 600
+    },
+    {
+      "question_id": "q6",
+      "question_text": "Discuss how you would implement zero trust security principles in a cloud-based environment like Azure.",
+      "question_type": "technical",
+      "difficulty": "hard",
+      "time-limit": 900
+    },
+    {
+      "question_id": "q7",
+      "question_text": "Describe your experience with Agile methodologies and provide an example of how you have applied them in a project.",
+      "question_type": "behavioral",
+      "difficulty": "easy",
+      "time-limit": 450
+    },
+    {
+      "question_id": "q8",
+      "question_text": "What strategies would you use to mentor junior developers and improve the team's overall code quality?",
+      "question_type": "behavioral",
+      "difficulty": "medium",
+      "time-limit": 600
+    },
+    {
+      "question_id": "q9",
+      "question_text": "What are the main differences between RESTful APIs and GraphQL APIs?",
+      "question_type": "technical",
+      "difficulty": "medium",
+      "time-limit": 600
+    },
+    {
+      "question_id": "q10",
+      "question_text": "Please write a Python function that takes a list of integers and returns the list sorted in ascending order. Provide tests for your function.",
+      "question_type": "code-test",
+      "difficulty": "easy",
+      "code-scope": "<code>",
+      "language": "Python",
+      "time-limit": 900
+    }
+  ]
+}
